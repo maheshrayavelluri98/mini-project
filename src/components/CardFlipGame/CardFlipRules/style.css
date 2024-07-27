@@ -1,0 +1,52 @@
+.card-flip-rules-main-container {
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #14332e;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+.card-flip-image {
+  height: 150px;
+}
+.card-flip-rules-container {
+  text-align: center;
+}
+.card-flip-rules-list {
+  text-align: left;
+}
+.back-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  gap: 8px;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+.flip-rules-image-container {
+  text-align: center;
+}
+.flip-start-play-btn {
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .card-flip-rules-main-container {
+    padding: 50px 10%;
+  }
+  .card-flip-rules-container {
+    text-align: left;
+  }
+  .card-flip-rules-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+  }
+  .card-flip-image {
+    text-align: center;
+    height: 250px;
+  }
+}

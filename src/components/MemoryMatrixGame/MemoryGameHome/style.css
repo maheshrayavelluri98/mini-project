@@ -1,0 +1,54 @@
+.memory-game-home-main-container {
+  min-height: 100vh;
+  padding: 20px;
+  align-items: center;
+  color: #ffffff;
+  background-color: #1a202c;
+  font-family: Bree Serif;
+}
+.memory-game-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.memory-back-button {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  font-family: Bree Serif;
+}
+.memory-rules-button {
+  font-family: Bree Serif;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+}
+.box {
+  height: 12px;
+  width: 12px;
+  background-color: #cbd5e1;
+}
+.red {
+  background-color: #ef4444;
+}
+.boxes-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  list-style: none;
+  row-gap: 5px;
+}
+.matrix-game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.high-box {
+  background-color: #467aff;
+}

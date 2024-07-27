@@ -1,0 +1,28 @@
+.navbar {
+  height: 10vh;
+  background-color: rgb(189, 188, 193);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.navbar h2 {
+  font-size: 16px;
+}
+.score-container {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+.score-none {
+  display: none;
+}

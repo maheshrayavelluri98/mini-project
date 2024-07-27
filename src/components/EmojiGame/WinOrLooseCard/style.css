@@ -1,0 +1,45 @@
+.win-loose-container {
+  background-color: rgba(255, 255, 255, 0.19);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  border: 3px solid rgba(255, 255, 255, 0.19);
+  border-radius: 12px;
+  margin: 60px auto;
+}
+.win-loose-card {
+  order: 1;
+}
+
+.score-card {
+  color: rgba(82, 63, 255, 1);
+}
+
+.result__image {
+  order: 0;
+}
+.play-agian-button {
+  border: none;
+  background-color: rgba(255, 206, 39, 1);
+  height: 32px;
+  width: 90px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-loose-card {
+    order: 0;
+  }
+  .result__image {
+    order: 1;
+    height: 300px;
+  }
+  .win-loose-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+}

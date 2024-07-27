@@ -1,0 +1,32 @@
+.emoji-list-item {
+  list-style: none;
+  width: 100%;
+  height: 75px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 3px solid rgba(255, 255, 255, 0.19);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.emoji-image {
+  height: 30px;
+  width: 30px;
+}
+.emoji-btn {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-list-item {
+    height: 150px;
+    width: 100%;
+  }
+  .emoji-image {
+    height: 80px;
+    width: 80px;
+  }
+}

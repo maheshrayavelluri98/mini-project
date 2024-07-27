@@ -1,0 +1,43 @@
+.matrix-progress-main-container {
+  height: 100vh;
+  background-color: #1a202c;
+  color: #ffffff;
+  text-align: center;
+  padding: 25% 150px;
+  font-family: Bree Serif;
+  width: 100%;
+}
+
+@media screen and (min-wdith: 768px) {
+  .matrix-progress-main-container {
+    padding: 25% 20px;
+  }
+}
+.level-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.matrix-emoji-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.matrix-Congratulations-heading {
+  color: #467aff;
+}
+.matrix-play-agian-button {
+  background-color: #467aff;
+  color: #ffffff;
+  font-family: Bree Serif;
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.barCompleted {
+  background-color: #467aff;
+}

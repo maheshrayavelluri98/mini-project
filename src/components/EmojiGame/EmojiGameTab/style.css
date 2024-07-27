@@ -1,0 +1,75 @@
+.game-main-container {
+  min-height: 100vh;
+  background-size: auto;
+  position: relative;
+}
+
+.game-icons-container {
+  width: 100%;
+  min-height: 90vh;
+  padding: 20px;
+  background-image: linear-gradient(
+    to bottom,
+    hsla(244, 70%, 77%, 1),
+    hsla(308, 38%, 80%, 1)
+  );
+}
+
+.game-back-button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-back-button-container button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#popup-btn {
+  width: 62px;
+  height: 32px;
+  border: solid 2px rgba(51, 65, 85, 1);
+  border-radius: 8px;
+}
+.emoji-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 20px 80px;
+  }
+  .game-icons-container {
+    padding: 30px 100px;
+  }
+
+  .emoji-list {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+.modal-rules-close-button {
+  margin-left: 90%;
+  border: none;
+  background-color: transparent;
+}
+
+.modal-rules-heading {
+  text-align: center;
+}

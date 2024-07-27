@@ -1,0 +1,63 @@
+.rock-game-rules-main-container {
+  min-height: 100vh;
+  background: rgba(34, 58, 95, 1);
+  padding: 20px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Bree Serif;
+}
+
+.rock-back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 1);
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.rock-rules-container {
+  text-align: center;
+}
+.rock-rules-heading {
+  font-size: 24px;
+  font-weight: 400;
+}
+.rock-rules-list li {
+  font-size: 16px;
+  font-weight: 200;
+  text-align: start;
+}
+.rock-start-play-button {
+  height: 34px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  font-family: Bree Serif;
+  cursor: pointer;
+}
+.rock-rules-main-container {
+  text-align: center;
+}
+.rock-rules-list b {
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .rock-game-rules-main-container {
+    padding: 30px 70px;
+  }
+  .rock-rules-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 30px;
+  }
+  .rock-rules-main-container {
+    text-align: start;
+  }
+  .rock-rules-list b {
+    color: rgb(255, 255, 0);
+  }
+}
